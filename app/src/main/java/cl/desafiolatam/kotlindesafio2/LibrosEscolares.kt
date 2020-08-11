@@ -55,7 +55,7 @@ fun LibrosEscolares.print() {
             "Año de Publicacion: $añoPublicacion \n" +
             "Editorial: $editorial \n" +
             "Paginas: $paginas \n" +
-            "Precio: $precio \n" +
+            "Precio: ${agregarPeso()} \n" +
             "Autor: $autor \n" +
             "Tipo de Libro: $tipoLibro \n" +
             "[===============================]"
@@ -63,7 +63,7 @@ fun LibrosEscolares.print() {
 }
 
 fun LibrosEscolares.agregarPeso () : String {
-    return "$"+"${LibrosEscolares().precio}"
+    return "$$precio"
 }
 
 fun main () {

@@ -73,10 +73,10 @@ fun main () {
     var texto4 = LibrosEscolares("Guia ilustrada", 3214, 2013, "Austral", 210, 15990, "Sekien", TipoLibro.Impreso())
     texto4.autor = "Sekien Toriyama"
 
-    println(texto1.print())
-    println(texto2.print())
-    println(texto3.print())
-    println(texto4.print())
+    texto1.print()
+    texto2.print()
+    texto3.print()
+    texto4.print()
 }
 
 
